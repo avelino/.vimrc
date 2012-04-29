@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>.vimrc by avelino</title>
+    
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>.vimrc</h1>
+        <p>Distro vim</p>
+        <p class="view"><a href="https://github.com/avelino/.vimrc">View the Project on GitHub <small>avelino/.vimrc</small></a></p>
+        <ul>
+          <li><a href="https://github.com/avelino/.vimrc/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/avelino/.vimrc/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/avelino/.vimrc">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Avelino's vim Distribution</h1>
+
+<p>This is a basic distribution of vim plugins and tools intended to be run
+on top of the latest MacVIM snapshot.</p>
+
+<p>We (Carl and Yehuda) both use this distribution for our own use, and
+welcome patches and contributions to help make it an effective way to
+get started with vim and then use it productively for years to come.</p>
+
+<p>At present, we are still learning to use vim ourselves, so you should
+anticipate a period of rapid development while we get a handle on the
+best tools for the job. So far, we have mostly integrated existing
+plugins and tools, and we anticipate to continue doing so while also
+writing our own plugins as appropriate.</p>
+
+<p>In general, you can expect that the tools we use work well together and
+that we have given careful thought to the experience of using MacVIM
+with the tools in question. If you run into an issue using it, please
+report an issue to the issue tracker.</p>
+
+<h2>Pre-requisites</h2>
+
+<p>The distribution is designed to work with Vim &gt;= 7.3.</p>
+
+<h2>Installation</h2>
+
+<p><code>curl https://raw.github.com/avelino/.vimrc/master/bootstrap.sh -o - | sh</code></p>
+
+<p>or</p>
+
+<ol>
+<li><code>for i in ~/.vim ~/.vimrc ~/.gvimrc; do [ -e $i ] &amp;&amp; mv $i $i.old;
+done</code></li>
+<li><code>git clone git://github.com/avelino/.vimrc.git ~/.vim</code></li>
+<li><code>ln -s ~/.vim/.vimrc ~/.vimrc</code></li>
+</ol><h2>Updating to the latest version</h2>
+
+<p>To update to the latest version of the distribution, just run <code>git pull</code>
+again inside your <code>~/.vim</code> directory.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/avelino">avelino</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
